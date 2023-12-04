@@ -1,0 +1,26 @@
+.view{
+  padding: 2%;
+  margin: 2%;
+  justify-content: center;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.card{
+  position: relative;
+  transition: transform 0.2s;
+}
+.image-container{
+  position: relative;
+  transition: transform 0.2s;
+
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
